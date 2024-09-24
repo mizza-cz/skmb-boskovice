@@ -1616,6 +1616,7 @@ strong {
 .typo h1 {
   font-size: 1.875rem;
   line-height: 2.25rem;
+  font-weight: 700;
 }
 @media (min-width: 1016px) {
   .typo h1 {
@@ -1626,6 +1627,7 @@ strong {
 .typo h2 {
   font-size: 1.5rem;
   line-height: 2rem;
+  font-weight: 700;
 }
 @media (min-width: 1016px) {
   .typo h2 {
@@ -1636,6 +1638,7 @@ strong {
 .typo h3 {
   font-size: 1.25rem;
   line-height: 1.75rem;
+  font-weight: 700;
 }
 @media (min-width: 1016px) {
   .typo h3 {
@@ -1646,6 +1649,7 @@ strong {
 .typo h4 {
   font-size: 1.125rem;
   line-height: 1.75rem;
+  font-weight: 700;
 }
 @media (min-width: 1016px) {
   .typo h4 {
@@ -1655,6 +1659,7 @@ strong {
 }
 .typo h5 {
   font-size: 1rem;
+  font-weight: 700;
   line-height: 1.5rem;
 }
 @media (min-width: 1016px) {
@@ -1666,6 +1671,7 @@ strong {
 .typo h6 {
   font-size: 1rem;
   line-height: 1.5rem;
+  font-weight: 700;
 }
 .typo :is(h1, h2, h3, h4, h5, h6) {
   --tw-text-opacity: 1;
@@ -1685,10 +1691,10 @@ strong {
   list-style-type: decimal;
 }
 .typo :is(ul, ol) li *::marker {
-  color: rgb(0 117 201);
+  color: rgb(216 35 35);
 }
 .typo :is(ul, ol) li::marker {
-  color: rgb(0 117 201);
+  color: rgb(216 35 35);
 }
 .typo :is(ul, ol) li:not(:last-child) {
   margin-bottom: 0.25rem;
@@ -2107,9 +2113,13 @@ h6 {
 }
 .menu-item.active .menu-link .menu-minus {
   display: block;
+  width: 24px;
+  height: 24px;
 }
 .menu-item .menu-link .menu-plus {
   display: block;
+  width: 24px;
+  height: 24px;
 }
 .menu-item.active .menu-link .menu-plus {
   display: none;
@@ -2818,7 +2828,7 @@ h6 {
 }
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgb(0 117 201 / var(--tw-text-opacity));
+  color: rgb(216 35 35 / var(--tw-text-opacity));
 }
 .text-secondary {
   --tw-text-opacity: 1;

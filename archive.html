@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SKMB Boskovice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <header class="sticky top-0 z-50">
+      <div class="bg-dark">
+        <ul class="container hidden py-4 xl:flex xl:items-center xl:justify-end gap-3">
+          <li>
+            <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+              <img src="images/ico/facebook.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+              <img src="images/ico/instagram.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="bg-primary">
+        <div class="container relative flex items-center justify-between py-3 xl:py-0">
+          <a href="/" class="z-100 w-14 xl:hidden">
+            <img class="h-auto w-full" src="images/content/logo.webp" loading="lazy" alt="" />
+          </a>
+          <nav class="menu-container">
+            <ul class="xl:flex xl:flex-1 xl:justify-end xl:gap-4">
+              <li class="menu-item group">
+                <a class="menu-link" href="#">
+                  O SMEČCE
+                  <div class="xl:hidden">
+                    <img class="menu-plus" src="images/ico/plus.svg" alt="" />
+                    <img class="menu-minus" src="images/ico/minus.svg" alt="" />
+                  </div>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">AKTUÁLNĚ</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">KONTAKTY A INFORMACE</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">REALIZAČNÍ TÝM</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">LETNÍ PŘÍPRAVA</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">SOUSTŘEDĚNÍ</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">PSALI O NÁS</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item group">
+                <a class="menu-link" href="#">FAN SHOP</a>
+              </li>
+              <li class="menu-item group">
+                <a class="menu-link" href="#">HOKEJBAL</a>
+              </li>
+            </ul>
+            <a class="mx-4 hidden h-auto w-40 xl:block" href="/">
+              <img
+                class="absolute -top-2/3 object-contain transition-transform hover:scale-105"
+                src="images/content/logo.webp"
+                width="160"
+                height="108"
+                loading="lazy"
+                alt=""
+              />
+            </a>
+            <ul class="xl:flex xl:flex-1 xl:gap-4">
+              <li class="menu-item group">
+                <a class="menu-link" href="#">NÁBORY</a>
+              </li>
+              <li class="menu-item group">
+                <a class="menu-link" href="#">
+                  KATEGORIE
+                  <div class="xl:hidden">
+                    <img class="menu-plus" src="images/ico/plus.svg" alt="" />
+                    <img class="menu-minus" src="images/ico/minus.svg" alt="" />
+                  </div>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">PŘÍPRAVKA</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">2. TŘÍDA</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">3. TŘÍDA</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">4. TŘÍDA</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">MLADŠÍ ŽÁCI</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">STARŠÍ ŽÁCI</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">9. TŘÍDA</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="menu-item group">
+                <a class="menu-link" href="#">
+                  FOTOGALERIE
+                  <div class="xl:hidden">
+                    <img class="menu-plus" src="images/ico/plus.svg" alt="" />
+                    <img class="menu-minus" src="images/ico/minus.svg" alt="" />
+                  </div>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">ZÁPASY</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">TRÉNINKY</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">AKCE</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">VIDEA</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul class="mt-8 flex justify-center gap-3 xl:hidden">
+              <li>
+                <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+                  <img src="images/ico/facebook.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+                  <img src="images/ico/instagram.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <button class="burger-menu" type="button" aria-expanded="false">
+            <span class="sr-only">Menu</span>
+            <img src="images/ico/menu.svg" alt="menu" />
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container pb-20 pt-10">
+      <div class="mb-6 md:bg-grey-60/25 md:p-8 lg:px-10">
+        <h1 class="text-3xl font-bold uppercase lg:text-4xl">Archiv</h1>
+      </div>
+
+      <form
+        id="archive-form"
+        action=""
+        method="GET"
+        class="mb-10 grid grid-cols-1 gap-x-2 gap-y-6 sm:grid-cols-3"
+      >
+        <select
+          class="custom-select w-full"
+          name="category"
+          id="category"
+          onchange="document.querySelector('#archive-form').submit()"
+        >
+          <option value="">Kategorie</option>
+          <option value="14">1. dubna</option>
+          <option value="16">A-tým</option>
+          <option value="4">Akce klubu</option>
+          <option value="9">CS Hockey</option>
+          <option value="12">Liga mladšího dorostu</option>
+          <option value="15">Mládež</option>
+          <option value="10">Mluví o nás</option>
+          <option value="7">Nábor</option>
+          <option value="5">Ostatní</option>
+          <option value="6">Oznámení</option>
+          <option value="13">Preview</option>
+          <option value="11">Rozhovor</option>
+          <option value="3">Trénink</option>
+          <option value="8">Turnaj</option>
+          <option value="2">Zápasy</option>
+        </select>
+        <select
+          class="custom-select w-full"
+          name="month"
+          id="month"
+          onchange="document.querySelector('#archive-form').submit()"
+        >
+          <option value="">Měsíc</option>
+          <option value="7">červenec</option>
+          <option value="11">listopad</option>
+          <option value="6">červen</option>
+          <option value="5">květen</option>
+          <option value="4">duben</option>
+          <option value="3">březen</option>
+          <option value="2">únor</option>
+          <option value="1">leden</option>
+          <option value="12">prosinec</option>
+          <option value="10">říjen</option>
+          <option value="9">září</option>
+          <option value="8">srpen</option>
+        </select>
+        <select
+          class="custom-select w-full"
+          name="year"
+          id="year"
+          onchange="document.querySelector('#archive-form').submit()"
+        >
+          <option value="">Rok</option>
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+          <option value="2020">2020</option>
+          <option value="2019">2019</option>
+          <option value="2018">2018</option>
+          <option value="2017">2017</option>
+          <option value="2016">2016</option>
+          <option value="2015">2015</option>
+          <option value="2014">2014</option>
+        </select>
+        <input
+          type="text"
+          name="q"
+          class="custom-input sm:col-span-2"
+          placeholder="Vyhledat článek"
+        />
+        <button type="submit" class="btn">Hledat</button>
+      </form>
+
+      <div class="mb-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <a
+          href="/match/2750-Acko-udrzelo-domaci-neporazitelnost-z-pripravy-a-obralo-Kobru-o-vsechny-body"
+          class="group"
+        >
+          <article>
+            <div class="mb-4 overflow-hidden">
+              <img
+                class="aspect-[3/2] w-full object-cover transition-transform group-hover:scale-105"
+                src="images/content/top-3.webp"
+                srcset="images/content/top-3.webp 297w, images/content/top-3.webp 440w"
+                sizes="(min-width: 1016px) 297px, calc(100vw - 24px)"
+                width="297"
+                height="198"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <span class="bg-primary mb-2 inline-block px-2 py-1 text-sm font-bold text-white"
+                >Předevčírem</span
+              >
+              <h2 class="link-underline link-underline-group line-clamp-3 text-2xl font-bold">
+                Áčko udrželo domácí neporazitelnost z přípravy a obralo Kobru o všechny body
+              </h2>
+            </div>
+          </article>
+        </a>
+        <a
+          href="/article/1714-V-prvnim-domacim-zapase-sezony-privita-acko-prazskou-Kobru"
+          class="group"
+        >
+          <article>
+            <div class="mb-4 overflow-hidden">
+              <img
+                class="aspect-[3/2] w-full object-cover transition-transform group-hover:scale-105"
+                src="images/content/top-2.webp"
+                srcset="images/content/top-2.webp 297w, images/content/top-2.webp 440w"
+                sizes="(min-width: 1016px) 297px, calc(100vw - 24px)"
+                width="297"
+                height="198"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <span class="bg-primary mb-2 inline-block px-2 py-1 text-sm font-bold text-white"
+                >20. 9. 2024</span
+              >
+              <h2 class="link-underline link-underline-group line-clamp-3 text-2xl font-bold">
+                V prvním domácím zápase sezóny přivítá áčko pražskou Kobru
+              </h2>
+            </div>
+          </article>
+        </a>
+
+        <a href="/article/1704-CTVRTECTNI-ZAPAS-S-RISUTY-JE-ZRUSEN" class="group">
+          <article>
+            <div class="mb-4 overflow-hidden">
+              <img
+                class="aspect-[3/2] w-full object-cover transition-transform group-hover:scale-105"
+                src="images/content/top-1.webp"
+                srcset="images/content/top-1.webp 297w, images/content/top-1.webp 440w"
+                sizes="(min-width: 1016px) 297px, calc(100vw - 24px)"
+                width="297"
+                height="198"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <span class="bg-primary mb-2 inline-block px-2 py-1 text-sm font-bold text-white"
+                >28. 8. 2024</span
+              >
+              <h2 class="link-underline link-underline-group line-clamp-3 text-2xl font-bold">
+                ČTVRTEČTNÍ ZÁPAS S ŘISUTY JE ZRUŠEN!
+              </h2>
+            </div>
+          </article>
+        </a>
+        <a
+          href="/match/2750-Acko-udrzelo-domaci-neporazitelnost-z-pripravy-a-obralo-Kobru-o-vsechny-body"
+          class="group"
+        >
+          <article>
+            <div class="mb-4 overflow-hidden">
+              <img
+                class="aspect-[3/2] w-full object-cover transition-transform group-hover:scale-105"
+                src="images/content/top-3.webp"
+                srcset="images/content/top-3.webp 297w, images/content/top-3.webp 440w"
+                sizes="(min-width: 1016px) 297px, calc(100vw - 24px)"
+                width="297"
+                height="198"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <span class="bg-primary mb-2 inline-block px-2 py-1 text-sm font-bold text-white"
+                >Předevčírem</span
+              >
+              <h2 class="link-underline link-underline-group line-clamp-3 text-2xl font-bold">
+                Áčko udrželo domácí neporazitelnost z přípravy a obralo Kobru o všechny body
+              </h2>
+            </div>
+          </article>
+        </a>
+        <a
+          href="/article/1714-V-prvnim-domacim-zapase-sezony-privita-acko-prazskou-Kobru"
+          class="group"
+        >
+          <article>
+            <div class="mb-4 overflow-hidden">
+              <img
+                class="aspect-[3/2] w-full object-cover transition-transform group-hover:scale-105"
+                src="images/content/top-2.webp"
+                srcset="images/content/top-2.webp 297w, images/content/top-2.webp 440w"
+                sizes="(min-width: 1016px) 297px, calc(100vw - 24px)"
+                width="297"
+                height="198"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <span class="bg-primary mb-2 inline-block px-2 py-1 text-sm font-bold text-white"
+                >20. 9. 2024</span
+              >
+              <h2 class="link-underline link-underline-group line-clamp-3 text-2xl font-bold">
+                V prvním domácím zápase sezóny přivítá áčko pražskou Kobru
+              </h2>
+            </div>
+          </article>
+        </a>
+
+        <a href="/article/1704-CTVRTECTNI-ZAPAS-S-RISUTY-JE-ZRUSEN" class="group">
+          <article>
+            <div class="mb-4 overflow-hidden">
+              <img
+                class="aspect-[3/2] w-full object-cover transition-transform group-hover:scale-105"
+                src="images/content/top-1.webp"
+                srcset="images/content/top-1.webp 297w, images/content/top-1.webp 440w"
+                sizes="(min-width: 1016px) 297px, calc(100vw - 24px)"
+                width="297"
+                height="198"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <span class="bg-primary mb-2 inline-block px-2 py-1 text-sm font-bold text-white"
+                >28. 8. 2024</span
+              >
+              <h2 class="link-underline link-underline-group line-clamp-3 text-2xl font-bold">
+                ČTVRTEČTNÍ ZÁPAS S ŘISUTY JE ZRUŠEN!
+              </h2>
+            </div>
+          </article>
+        </a>
+        <a
+          href="/match/2750-Acko-udrzelo-domaci-neporazitelnost-z-pripravy-a-obralo-Kobru-o-vsechny-body"
+          class="group"
+        >
+          <article>
+            <div class="mb-4 overflow-hidden">
+              <img
+                class="aspect-[3/2] w-full object-cover transition-transform group-hover:scale-105"
+                src="images/content/top-3.webp"
+                srcset="images/content/top-3.webp 297w, images/content/top-3.webp 440w"
+                sizes="(min-width: 1016px) 297px, calc(100vw - 24px)"
+                width="297"
+                height="198"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <span class="bg-primary mb-2 inline-block px-2 py-1 text-sm font-bold text-white"
+                >Předevčírem</span
+              >
+              <h2 class="link-underline link-underline-group line-clamp-3 text-2xl font-bold">
+                Áčko udrželo domácí neporazitelnost z přípravy a obralo Kobru o všechny body
+              </h2>
+            </div>
+          </article>
+        </a>
+        <a
+          href="/article/1714-V-prvnim-domacim-zapase-sezony-privita-acko-prazskou-Kobru"
+          class="group"
+        >
+          <article>
+            <div class="mb-4 overflow-hidden">
+              <img
+                class="aspect-[3/2] w-full object-cover transition-transform group-hover:scale-105"
+                src="images/content/top-2.webp"
+                srcset="images/content/top-2.webp 297w, images/content/top-2.webp 440w"
+                sizes="(min-width: 1016px) 297px, calc(100vw - 24px)"
+                width="297"
+                height="198"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <span class="bg-primary mb-2 inline-block px-2 py-1 text-sm font-bold text-white"
+                >20. 9. 2024</span
+              >
+              <h2 class="link-underline link-underline-group line-clamp-3 text-2xl font-bold">
+                V prvním domácím zápase sezóny přivítá áčko pražskou Kobru
+              </h2>
+            </div>
+          </article>
+        </a>
+
+        <a href="/article/1704-CTVRTECTNI-ZAPAS-S-RISUTY-JE-ZRUSEN" class="group">
+          <article>
+            <div class="mb-4 overflow-hidden">
+              <img
+                class="aspect-[3/2] w-full object-cover transition-transform group-hover:scale-105"
+                src="images/content/top-1.webp"
+                srcset="images/content/top-1.webp 297w, images/content/top-1.webp 440w"
+                sizes="(min-width: 1016px) 297px, calc(100vw - 24px)"
+                width="297"
+                height="198"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <span class="bg-primary mb-2 inline-block px-2 py-1 text-sm font-bold text-white"
+                >28. 8. 2024</span
+              >
+              <h2 class="link-underline link-underline-group line-clamp-3 text-2xl font-bold">
+                ČTVRTEČTNÍ ZÁPAS S ŘISUTY JE ZRUŠEN!
+              </h2>
+            </div>
+          </article>
+        </a>
+      </div>
+
+      <nav aria-label="Stránkování">
+        <ul class="flex items-center justify-center gap-2">
+          <li>
+            <a
+              class="bg-secondary grid aspect-square w-8 place-items-center p-1 text-white transition-colors"
+              >1</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:bg-secondary grid aspect-square w-8 place-items-center bg-primary p-1 text-white transition-colors"
+              href="archive?month=&year=&category=&q=&page=2"
+              >2</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:bg-secondary grid aspect-square w-8 place-items-center bg-primary p-1 text-white transition-colors"
+              href="archive?month=&year=&category=&q=&page=3"
+              >3</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:bg-secondary grid aspect-square w-8 place-items-center bg-primary p-1 text-white transition-colors"
+              href="archive?month=&year=&category=&q=&page=4"
+              ><span class="sr-only">Starší</span>
+              <svg
+                fill="#fff"
+                width="16"
+                height="16"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </main>
+
+    <footer class="bg-dark text-white">
+      <div class="container py-10">
+        <div class="mb-10">
+          <p class="text-center leading-7 md:text-left">
+            <b>HOKEJOVÝ KLUB SKMB Boskovice z.s.</b> <br />
+            Na Chmelnici 2400/39, <br />
+            680 01 Boskovice <br />
+            Česká republika
+          </p>
+          <p class="text-center leading-7 md:text-left">IČ: 046 10 954<br /></p>
+        </div>
+        <ul class="mb-4 flex flex-wrap items-center justify-center gap-3">
+          <li>
+            <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+              <img src="images/ico/facebook.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+              <img src="images/ico/instagram.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+        <p class="text-gray-100 text-center text-xs">
+          &copy; 2024 SKMB Boskovice z.s. &
+          <a
+            class="link-underline link-underline-normal"
+            href="https://esportsmedia.cz/"
+            target="_blank"
+            >eSports.cz</a
+          >
+          |
+          <a
+            href="javascript:void(0);"
+            data-cc="c-settings"
+            aria-haspopup="dialog"
+            class="link-underline link-underline-normal"
+            >Cookies</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
