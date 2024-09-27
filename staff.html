@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SKMB Boskovice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <header class="sticky top-0 z-50">
+      <div class="bg-dark">
+        <ul class="container hidden py-4 xl:flex xl:items-center xl:justify-end gap-3">
+          <li>
+            <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+              <img src="images/ico/facebook.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+              <img src="images/ico/instagram.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="bg-primary">
+        <div class="container relative flex items-center justify-between py-3 xl:py-0">
+          <a href="/" class="z-100 w-14 xl:hidden">
+            <img class="h-auto w-full" src="images/content/logo.webp" loading="lazy" alt="" />
+          </a>
+          <nav class="menu-container">
+            <ul class="xl:flex xl:flex-1 xl:justify-end xl:gap-4">
+              <li class="menu-item group">
+                <a class="menu-link" href="#">
+                  O SMEČCE
+                  <div class="xl:hidden">
+                    <img class="menu-plus" src="images/ico/plus.svg" alt="" />
+                    <img class="menu-minus" src="images/ico/minus.svg" alt="" />
+                  </div>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">AKTUÁLNĚ</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">KONTAKTY A INFORMACE</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">REALIZAČNÍ TÝM</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">LETNÍ PŘÍPRAVA</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">SOUSTŘEDĚNÍ</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">PSALI O NÁS</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item group">
+                <a class="menu-link" href="#">FAN SHOP</a>
+              </li>
+              <li class="menu-item group">
+                <a class="menu-link" href="#">HOKEJBAL</a>
+              </li>
+            </ul>
+            <a class="mx-4 hidden h-auto w-40 xl:block" href="/">
+              <img
+                class="absolute -top-2/3 object-contain transition-transform hover:scale-105"
+                src="images/content/logo.webp"
+                width="160"
+                height="108"
+                loading="lazy"
+                alt=""
+              />
+            </a>
+            <ul class="xl:flex xl:flex-1 xl:gap-4">
+              <li class="menu-item group">
+                <a class="menu-link" href="#">NÁBORY</a>
+              </li>
+              <li class="menu-item group">
+                <a class="menu-link" href="#">
+                  KATEGORIE
+                  <div class="xl:hidden">
+                    <img class="menu-plus" src="images/ico/plus.svg" alt="" />
+                    <img class="menu-minus" src="images/ico/minus.svg" alt="" />
+                  </div>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">PŘÍPRAVKA</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">2. TŘÍDA</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">3. TŘÍDA</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">4. TŘÍDA</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">MLADŠÍ ŽÁCI</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">STARŠÍ ŽÁCI</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">9. TŘÍDA</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="menu-item group">
+                <a class="menu-link" href="#">
+                  FOTOGALERIE
+                  <div class="xl:hidden">
+                    <img class="menu-plus" src="images/ico/plus.svg" alt="" />
+                    <img class="menu-minus" src="images/ico/minus.svg" alt="" />
+                  </div>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">ZÁPASY</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">TRÉNINKY</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">AKCE</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">VIDEA</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul class="mt-8 flex justify-center gap-3 xl:hidden">
+              <li>
+                <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+                  <img src="images/ico/facebook.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+                  <img src="images/ico/instagram.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <button class="burger-menu" type="button" aria-expanded="false">
+            <span class="sr-only">Menu</span>
+            <img src="images/ico/menu.svg" alt="menu" />
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="container pb-20 pt-10">
+      <div
+        class="mb-10 flex flex-wrap items-center justify-between gap-6 md:bg-grey-60/25 md:p-8 lg:px-10"
+      >
+        <h1 class="text-3xl font-bold uppercase lg:text-4xl">Realizační tým A mužstva</h1>
+      </div>
+
+      <div class="grid grid-cols-1 gap-10 lg:grid-cols-3">
+        <div class="lg:col-span-2">
+          <div class="flex flex-col gap-10">
+            <div>
+              <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-4">
+                <div class="flex flex-col items-center bg-white p-4 rounded-md">
+                  <div class="staff-img overflow-hidden rounded-full w-36 h-36 mb-2">
+                    <img
+                      class="rounded-full object-cover object-top"
+                      src="http://hokejkralupy.cz/dist/img/defaultPlayer.png"
+                      width="68"
+                      height="68"
+                      loading="lazy"
+                      alt=""
+                    />
+                  </div>
+                  <h4 class="font-bold text-center text-lg lg:text-xl mb-2">
+                    <span class="">Jindřich</span> <br />
+                    Tichai
+                  </h4>
+                  <small class="bg-primary px-2 py-1 text-white rounded mt-2">hlavní trenér</small>
+                </div>
+                <div class="flex flex-col items-center bg-white p-4 rounded-md">
+                  <div class="staff-img overflow-hidden rounded-full w-36 h-36 mb-2">
+                    <img
+                      class="rounded-full object-cover object-top"
+                      src="images/content/min.jpeg"
+                      width="68"
+                      height="68"
+                      loading="lazy"
+                      alt=""
+                    />
+                  </div>
+                  <h4 class="font-bold text-center text-lg lg:text-xl mb-2">
+                    <span class="">Jindřich</span> <br />
+                    Tichai
+                  </h4>
+                  <small class="bg-primary px-2 py-1 text-white rounded mt-2">hlavní trenér</small>
+                </div>
+                <div class="flex flex-col items-center bg-white p-4 rounded-md">
+                  <div class="staff-img overflow-hidden rounded-full w-36 h-36 mb-2">
+                    <img
+                      class="rounded-full object-cover object-top"
+                      src="http://hokejkralupy.cz/dist/img/defaultPlayer.png"
+                      width="68"
+                      height="68"
+                      loading="lazy"
+                      alt=""
+                    />
+                  </div>
+                  <h4 class="font-bold text-center text-lg lg:text-xl mb-2">
+                    <span class="">Jindřich</span> <br />
+                    Tichai
+                  </h4>
+                  <small class="bg-primary px-2 py-1 text-white rounded mt-2">hlavní trenér</small>
+                </div>
+                <div class="flex flex-col items-center bg-white p-4 rounded-md">
+                  <div class="staff-img overflow-hidden rounded-full w-36 h-36 mb-2">
+                    <img
+                      class="rounded-full object-cover object-top"
+                      src="http://hokejkralupy.cz/dist/img/defaultPlayer.png"
+                      width="68"
+                      height="68"
+                      loading="lazy"
+                      alt=""
+                    />
+                  </div>
+                  <h4 class="font-bold text-center text-lg lg:text-xl mb-2">
+                    <span class="">Jindřich</span> <br />
+                    Tichai
+                  </h4>
+                  <small class="bg-primary px-2 py-1 text-white rounded mt-2">hlavní trenér</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-10 lg:col-span-1">
+          <div>
+            <h2 class="text-secondary mb-2 text-2xl font-bold uppercase">Muži</h2>
+            <ul>
+              <li class="border-b-secondary/10 border-b last:border-b-0">
+                <a
+                  href="/roster?category=MUZ"
+                  class="link-underline link-underline-normal block p-3 font-medium"
+                  >Soupiska</a
+                >
+              </li>
+              <li class="border-b-secondary/10 border-b last:border-b-0">
+                <a
+                  href="/staff?category=MUZ"
+                  class="link-underline text-primary link-underline-normal block p-3 font-medium"
+                  >Realizační tým</a
+                >
+              </li>
+              <li class="border-b-secondary/10 border-b last:border-b-0">
+                <a
+                  href="/matches?category=MUZ"
+                  class="link-underline link-underline-normal block p-3 font-medium"
+                  >Zápasy</a
+                >
+              </li>
+              <li class="border-b-secondary/10 border-b last:border-b-0">
+                <a
+                  href="/standings?category=MUZ"
+                  class="link-underline link-underline-normal block p-3 font-medium"
+                  >Tabulka</a
+                >
+              </li>
+              <li class="border-b-secondary/10 border-b last:border-b-0">
+                <a
+                  href="/statistics?category=MUZ"
+                  class="link-underline link-underline-normal block p-3 font-medium"
+                  >Statistiky</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <section aria-label="Další články">
+            <div class="mb-8 flex flex-col gap-6">
+              <a
+                href="/article/1714-V-prvnim-domacim-zapase-sezony-privita-acko-prazskou-Kobru"
+                class="group"
+              >
+                <article>
+                  <div class="mb-4 overflow-hidden">
+                    <img
+                      class="aspect-[3/2] w-full object-cover transition-transform group-hover:scale-105"
+                      src="images/content/top-1.webp"
+                      srcset="images/content/top-1.webp 393w, images/content/top-1.webp 664w"
+                      sizes="(min-width: 1016px) 393px, calc(100vw - 24px)"
+                      width="393"
+                      height="262"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </div>
+                  <div>
+                    <span
+                      class="bg-primary mb-2 inline-block px-2 py-1 text-sm font-bold text-white"
+                      >20. 9. 2024</span
+                    >
+                    <h2 class="link-underline link-underline-group line-clamp-3 text-2xl font-bold">
+                      V prvním domácím zápase sezóny přivítá áčko pražskou Kobru
+                    </h2>
+                  </div>
+                </article>
+              </a>
+              <a
+                href="/article/1712-DRUHA-LIGA-STARTUJE-Acko-zapocne-sezonu-stredecnim-zapasem-v-Benatkach"
+                class="group"
+              >
+                <article>
+                  <div class="mb-4 overflow-hidden">
+                    <img
+                      class="aspect-[3/2] w-full object-cover transition-transform group-hover:scale-105"
+                      src="images/content/top-2.webp"
+                      srcset="images/content/top-2.webp 393w, images/content/top-2.webp 664w"
+                      sizes="(min-width: 1016px) 393px, calc(100vw - 24px)"
+                      width="393"
+                      height="262"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </div>
+                  <div>
+                    <span
+                      class="bg-primary mb-2 inline-block px-2 py-1 text-sm font-bold text-white"
+                      >17. 9. 2024</span
+                    >
+                    <h2 class="link-underline link-underline-group line-clamp-3 text-2xl font-bold">
+                      DRUHÁ LIGA STARTUJE! Áčko započne sezónu středečním zápasem v Benátkách
+                    </h2>
+                  </div>
+                </article>
+              </a>
+            </div>
+            <div class="flex justify-center">
+              <a class="btn" href="/archive">Další články</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark text-white">
+      <div class="container py-10">
+        <div class="mb-10">
+          <p class="text-center leading-7 md:text-left">
+            <b>HOKEJOVÝ KLUB SKMB Boskovice z.s.</b> <br />
+            Na Chmelnici 2400/39, <br />
+            680 01 Boskovice <br />
+            Česká republika
+          </p>
+          <p class="text-center leading-7 md:text-left">IČ: 046 10 954<br /></p>
+        </div>
+        <ul class="mb-4 flex flex-wrap items-center justify-center gap-3">
+          <li>
+            <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+              <img src="images/ico/facebook.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+              <img src="images/ico/instagram.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+        <p class="text-gray-100 text-center text-xs">
+          &copy; 2024 SKMB Boskovice z.s. &
+          <a
+            class="link-underline link-underline-normal"
+            href="https://esportsmedia.cz/"
+            target="_blank"
+            >eSports.cz</a
+          >
+          |
+          <a
+            href="javascript:void(0);"
+            data-cc="c-settings"
+            aria-haspopup="dialog"
+            class="link-underline link-underline-normal"
+            >Cookies</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

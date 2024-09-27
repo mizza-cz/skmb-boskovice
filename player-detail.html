@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SKMB Boskovice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <header class="sticky top-0 z-50">
+      <div class="bg-dark">
+        <ul class="container hidden py-4 xl:flex xl:items-center xl:justify-end gap-3">
+          <li>
+            <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+              <img src="images/ico/facebook.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+              <img src="images/ico/instagram.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="bg-primary">
+        <div class="container relative flex items-center justify-between py-3 xl:py-0">
+          <a href="/" class="z-100 w-14 xl:hidden">
+            <img class="h-auto w-full" src="images/content/logo.webp" loading="lazy" alt="" />
+          </a>
+          <nav class="menu-container">
+            <ul class="xl:flex xl:flex-1 xl:justify-end xl:gap-4">
+              <li class="menu-item group">
+                <a class="menu-link" href="#">
+                  O SMEČCE
+                  <div class="xl:hidden">
+                    <img class="menu-plus" src="images/ico/plus.svg" alt="" />
+                    <img class="menu-minus" src="images/ico/minus.svg" alt="" />
+                  </div>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">AKTUÁLNĚ</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">KONTAKTY A INFORMACE</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">REALIZAČNÍ TÝM</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">LETNÍ PŘÍPRAVA</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">SOUSTŘEDĚNÍ</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">PSALI O NÁS</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item group">
+                <a class="menu-link" href="#">FAN SHOP</a>
+              </li>
+              <li class="menu-item group">
+                <a class="menu-link" href="#">HOKEJBAL</a>
+              </li>
+            </ul>
+            <a class="mx-4 hidden h-auto w-40 xl:block" href="/">
+              <img
+                class="absolute -top-2/3 object-contain transition-transform hover:scale-105"
+                src="images/content/logo.webp"
+                width="160"
+                height="108"
+                loading="lazy"
+                alt=""
+              />
+            </a>
+            <ul class="xl:flex xl:flex-1 xl:gap-4">
+              <li class="menu-item group">
+                <a class="menu-link" href="#">NÁBORY</a>
+              </li>
+              <li class="menu-item group">
+                <a class="menu-link" href="#">
+                  KATEGORIE
+                  <div class="xl:hidden">
+                    <img class="menu-plus" src="images/ico/plus.svg" alt="" />
+                    <img class="menu-minus" src="images/ico/minus.svg" alt="" />
+                  </div>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">PŘÍPRAVKA</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">2. TŘÍDA</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">3. TŘÍDA</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">4. TŘÍDA</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">MLADŠÍ ŽÁCI</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">STARŠÍ ŽÁCI</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">9. TŘÍDA</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="menu-item group">
+                <a class="menu-link" href="#">
+                  FOTOGALERIE
+                  <div class="xl:hidden">
+                    <img class="menu-plus" src="images/ico/plus.svg" alt="" />
+                    <img class="menu-minus" src="images/ico/minus.svg" alt="" />
+                  </div>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">ZÁPASY</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">TRÉNINKY</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">AKCE</a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-link" href="#">VIDEA</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul class="mt-8 flex justify-center gap-3 xl:hidden">
+              <li>
+                <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+                  <img src="images/ico/facebook.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+                  <img src="images/ico/instagram.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <button class="burger-menu" type="button" aria-expanded="false">
+            <span class="sr-only">Menu</span>
+            <img src="images/ico/menu.svg" alt="menu" />
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container pb-20 pt-10 md:pt-0">
+      <div
+        class="relative before:z-1 before:bg-gradient-to-t before:from-black before:to-transparent md:flex md:aspect-[21/9] md:items-end md:before:absolute md:before:inset-0"
+      >
+        <img
+          class="absolute inset-0 hidden h-full w-full object-contain md:block"
+          src="images/content/logo.webp"
+          width="1260"
+          height="540"
+          alt=""
+        />
+        <div
+          class="relative z-10 flex w-full flex-col gap-10 md:flex-row md:items-end md:justify-between md:p-8 lg:p-10"
+        >
+          <div class="flex flex-col items-center gap-6 md:flex-row md:gap-10">
+            <img
+              class="aspect-square w-24 rounded-full border-4 border-white object-contain lg:w-[156px]"
+              src="http://hokejkralupy.cz/dist/img/defaultPlayer.png"
+              width="156"
+              height="156"
+              alt=""
+            />
+            <div class="text-center md:text-left">
+              <h2 class="text-2xl font-bold md:text-white lg:mb-1 lg:text-4xl">Lukáš</h2>
+              <h1 class="mb-2 text-3xl font-bold uppercase md:text-white lg:text-5xl">Sochůrek</h1>
+              <h5 class="text-lg font-bold uppercase text-grey-100 md:text-grey-60">Brankář</h5>
+            </div>
+          </div>
+          <ul
+            class="flex flex-wrap justify-center gap-x-10 gap-y-4 text-center md:text-left lg:mb-4"
+          >
+            <li>
+              <h5 class="text-lg font-bold uppercase text-grey-100 md:text-grey-60">Narozen</h5>
+              <span class="text-xl md:text-white">7. 3. 1996</span>
+            </li>
+            <li>
+              <h5 class="text-lg font-bold uppercase text-grey-100 md:text-grey-60">Výška</h5>
+              <span class="text-xl md:text-white">182 cm</span>
+            </li>
+            <li>
+              <h5 class="text-lg font-bold uppercase text-grey-100 md:text-grey-60">Váha</h5>
+              <span class="text-xl md:text-white">85 kg</span>
+            </li>
+            <li>
+              <h5 class="text-lg font-bold uppercase text-grey-100 md:text-grey-60">Národnost</h5>
+              <span class="text-xl md:text-white">Česká republika</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-10 py-10 md:px-8 lg:px-10">
+        <div>
+          <h3 class="text-secondary mb-4 text-2xl font-bold uppercase">Posledních 5 zápasů</h3>
+          <div class="overflow-x-auto">
+            <table class="styled">
+              <thead>
+                <tr>
+                  <th class="text-start">Datum</th>
+                  <th class="text-start">Utkání</th>
+                  <th>Min</th>
+                  <th>Stř</th>
+                  <th>Ink</th>
+                  <th>Zás</th>
+                  <th>Úsp</th>
+                  <th>A</th>
+                  <th>TM</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>18. 9. 2024</td>
+                  <td>
+                    HC BENÁTKY NAD JIZEROU vs HK KRALUPY (<a
+                      href="/match/2751"
+                      class="link-underline link-underline-normal font-bold"
+                      >6:0</a
+                    >)
+                  </td>
+                  <td class="text-center">60</td>
+                  <td class="text-center">6</td>
+                  <td class="text-center">6</td>
+                  <td class="text-center">0</td>
+                  <td class="text-center">0%</td>
+                  <td class="text-center">0</td>
+                  <td class="text-center">0</td>
+                </tr>
+                <tr>
+                  <td>28. 2. 2024</td>
+                  <td>
+                    HK KRALUPY vs HC KOBRA PRAHA (<a
+                      href="/match/2246"
+                      class="link-underline link-underline-normal font-bold"
+                      >2:4</a
+                    >)
+                  </td>
+                  <td class="text-center">60</td>
+                  <td class="text-center">4</td>
+                  <td class="text-center">4</td>
+                  <td class="text-center">0</td>
+                  <td class="text-center">0%</td>
+                  <td class="text-center">0</td>
+                  <td class="text-center">0</td>
+                </tr>
+                <tr>
+                  <td>21. 2. 2024</td>
+                  <td>
+                    HC WIKOV HRONOV vs HK KRALUPY (<a
+                      href="/match/2248"
+                      class="link-underline link-underline-normal font-bold"
+                      >2:3</a
+                    >)
+                  </td>
+                  <td class="text-center">60</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">0</td>
+                  <td class="text-center">0%</td>
+                  <td class="text-center">0</td>
+                  <td class="text-center">0</td>
+                </tr>
+                <tr>
+                  <td>7. 2. 2024</td>
+                  <td>
+                    HK KRALUPY vs IHC KRÁLOVÉ PÍSEK (<a
+                      href="/match/2251"
+                      class="link-underline link-underline-normal font-bold"
+                      >5:3</a
+                    >)
+                  </td>
+                  <td class="text-center">60</td>
+                  <td class="text-center">3</td>
+                  <td class="text-center">3</td>
+                  <td class="text-center">0</td>
+                  <td class="text-center">0%</td>
+                  <td class="text-center">0</td>
+                  <td class="text-center">0</td>
+                </tr>
+                <tr>
+                  <td>3. 2. 2024</td>
+                  <td>
+                    HC STADION CHEB vs HK KRALUPY (<a
+                      href="/match/2252"
+                      class="link-underline link-underline-normal font-bold"
+                      >2:1p</a
+                    >)
+                  </td>
+                  <td class="text-center">62</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">0</td>
+                  <td class="text-center">0%</td>
+                  <td class="text-center">0</td>
+                  <td class="text-center">0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-dark mb-4 text-xl font-bold uppercase lg:text-2xl">Sezóny</h3>
+          <div class="overflow-x-auto">
+            <table class="styled">
+              <thead>
+                <tr>
+                  <th class="text-start">Sezóna</th>
+                  <th>Min</th>
+                  <th>Stř</th>
+                  <th>Ink</th>
+                  <th>Zás</th>
+                  <th>Úsp</th>
+                  <th>A</th>
+                  <th>TM</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>II.Liga ČR</td>
+                  <td class="text-center">60</td>
+                  <td class="text-center">6</td>
+                  <td class="text-center">6</td>
+                  <td class="text-center">0</td>
+                  <td class="text-center">0</td>
+                  <td class="text-center">0</td>
+                  <td class="text-center">0</td>
+                </tr>
+                <tr>
+                  <td>II.Liga ČR</td>
+                  <td class="text-center">1241</td>
+                  <td class="text-center">75</td>
+                  <td class="text-center">75</td>
+                  <td class="text-center">0</td>
+                  <td class="text-center">0</td>
+                  <td class="text-center">0</td>
+                  <td class="text-center">0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-white">
+      <div class="container py-10">
+        <div class="mb-10">
+          <p class="text-center leading-7 md:text-left">
+            <b>HOKEJOVÝ KLUB SKMB Boskovice z.s.</b> <br />
+            Na Chmelnici 2400/39, <br />
+            680 01 Boskovice <br />
+            Česká republika
+          </p>
+          <p class="text-center leading-7 md:text-left">IČ: 046 10 954<br /></p>
+        </div>
+        <ul class="mb-4 flex flex-wrap items-center justify-center gap-3">
+          <li>
+            <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+              <img src="images/ico/facebook.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" class="block transition-transform hover:scale-105">
+              <img src="images/ico/instagram.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+        <p class="text-gray-100 text-center text-xs">
+          &copy; 2024 SKMB Boskovice z.s. &
+          <a
+            class="link-underline link-underline-normal"
+            href="https://esportsmedia.cz/"
+            target="_blank"
+            >eSports.cz</a
+          >
+          |
+          <a
+            href="javascript:void(0);"
+            data-cc="c-settings"
+            aria-haspopup="dialog"
+            class="link-underline link-underline-normal"
+            >Cookies</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

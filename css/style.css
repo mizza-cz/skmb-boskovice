@@ -2548,6 +2548,7 @@ h6 {
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
+
 .grid-cols-\[1fr_17px_1fr\] {
   grid-template-columns: 1fr 17px 1fr;
 }
@@ -3810,5 +3811,12 @@ h6 {
 }
 .bg-dark {
   background-color: #000;
+}
+.staff-img {
+  border: 4px solid rgb(216 35 35 / var(--tw-bg-opacity));
+}
+.staff-img img {
+  width: 100px;
+  height: 100px;
 }
 /* --------------------- */
